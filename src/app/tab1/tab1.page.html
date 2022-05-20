@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Mis datos
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,75 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid style="background-color: skyblue;">
+    <ion-row>
+      <ion-col size="6" size-lg offset="4.5">
+        <img src="../../assets/profile.png" width="130" height="110"/>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6" size-lg offset="5">
+        <h1>Perfil</h1>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="8" size-lg offset="2">
+        <p>
+          Soy estudiante con más de 3 años de experiencia en el desarrollo de software
+          y mantenimiento de hardware.
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        <h5>Nombre Completo</h5>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <p>Carlos Andres Quel Redroban</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        <h5>Dirección</h5>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <p>
+          Francisco Pérez de Quezada y Diego de Palomino, Quito
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        <h5>Teléfono móvil</h5>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <p>0999040706</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        <h5>Correo electrónico</h5>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <p>carlos.quel@epn.edu.ec</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="5">
+        <h5>Fecha de Nacimiento</h5>
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        <p>06 de diciembre del 2000</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
